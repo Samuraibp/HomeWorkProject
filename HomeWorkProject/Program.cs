@@ -4,41 +4,41 @@
     {
         static void Main(string[] args)
         {
-            // ===== Задание 1 =====
+            //  Задание 1 
             Console.WriteLine("Задание 1:");
             DrawSquare(5, '*');
 
-            // ===== Задание 2 =====
+            //  Задание 2 
             Console.WriteLine("\nЗадание 2:");
             Console.WriteLine(IsPalindrome(1221)); // true
             Console.WriteLine(IsPalindrome(7854)); // false
 
-            // ===== Задание 3 =====
+            //  Задание 3 
             Console.WriteLine("\nЗадание 3:");
             int[] original = { 1, 2, 6, -1, 88, 7, 6 };
             int[] filter = { 6, 88, 7 };
             int[] result = FilterArray(original, filter);
             Console.WriteLine(string.Join(" ", result));
 
-            // ===== Задание 4 =====
+            //  Задание 4 
             Console.WriteLine("\nЗадание 4:");
             Website site = new Website();
             site.Input();
             site.Output();
 
-            // ===== Задание 5 =====
+            //  Задание 5 
             Console.WriteLine("\nЗадание 5:");
             Journal journal = new Journal();
             journal.Input();
             journal.Output();
 
-            // ===== Задание 6 =====
+            //  Задание 6 
             Console.WriteLine("\nЗадание 6:");
             Shop shop = new Shop();
             shop.Input();
             shop.Output();
 
-            // ===== Задание 7 =====
+            //  Задание 7 
             Console.WriteLine("\nЗадание 7:");
             Reservoir reservoir = new Reservoir(100, "Сталь");
             reservoir.Fill(120);
